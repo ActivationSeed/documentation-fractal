@@ -137,6 +137,7 @@ footer {
     border: none;
     overflow-x: hidden;
     max-width: 100%;
+    border: none;
   }
 
   #navbar {
@@ -169,9 +170,10 @@ footer {
 
   #main-doc {
     margin-left: 120px;
-    width: calc(100vw - 120px);
+    width: calc(100% - 125px);
     box-sizing: border-box;
     padding-top: 5px;
+    overflow-x: hidden;
   }
 
   .main-section-divisions {
