@@ -121,16 +121,16 @@ footer {
 
 @media (orientation: landscape) and (max-width: 950px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
   p {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 950px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   body {
