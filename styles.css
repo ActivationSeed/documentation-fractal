@@ -96,8 +96,9 @@ h3 {
 }
 
 code {
-  color: white;
-  background-color: #7A828C;
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 1.1px;
 }
 
 footer {
@@ -114,6 +115,7 @@ footer {
     padding-left: 10px;
     padding-top: 0;
     display: flex;
+    flex-direction: column;
     border: none;
     overflow-x: hidden;
   }
@@ -121,39 +123,50 @@ footer {
   #navbar {
     position: fixed;
     max-height: none;
-    width: 150px;
-    flex-direction: row;
+    width: 100px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     margin: 10px;
     padding: 0;
+    overflow-x: hidden;
   }
 
   #navbar img {
-  width: 125px;
-  height: auto;
-  padding-top: 10px;
+    width: 80px;
+    height: auto;
+    padding-top: 10px;
   }
 
   #navbar a {
     display: block;
     padding: 10px 5px;
-    font-size: 1rem;
-    margin: 10px;
+    font-size: .8rem;
+    margin: 5px 0;
     background-color: #D3D9E1;
+    padding: 5px;
+    text-align: center;
   }
 
   #main-doc {
-    width: 100%;
-    padding-left: 140px;
+    width: calc(100vw - 130px);
+    margin-left: 90px;
+  }
+
+  .main-section-divisions {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    line-height: 1.1;
   }
 
   h1 {
-  font-size: 2.0rem;
+  font-size: 1.3rem;
   color: white;
   letter-spacing: 5px;
   }
   
-  
-  
-}
 }
