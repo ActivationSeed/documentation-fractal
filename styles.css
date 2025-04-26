@@ -18,18 +18,17 @@ html {
 body {
   font-family: calibri;
   background-color: #7A828C;
-  border: 2px solid black;
-  width: 1000px;
   display: flex;
-  margin: 20px auto;
+  margin: auto;
   overflow-x: hidden;
+  align-items: flex-start;
 }
 
 #navbar {
   background-color: #D3D9E1;
   border: 2px solid black;
   margin: 10px;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   padding: 10px;
@@ -73,6 +72,7 @@ body {
   flex-direction: column;
   width: 800px;
   overflow-x: auto;
+  margin-left: 270px;
 }
 
 .main-section-divisions {
@@ -117,6 +117,7 @@ footer {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
 
 @media (orientation: landscape) and (max-width: 950px) {
