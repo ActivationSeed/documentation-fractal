@@ -123,6 +123,9 @@ footer {
   html {
     font-size: 14px;
   }
+  p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 950px) {
