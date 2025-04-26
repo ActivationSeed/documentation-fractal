@@ -119,7 +119,7 @@ footer {
   flex-direction: column;
 }
 
-@medai (orientation: landscape) and (max-width: 950px) {
+@media (orientation: landscape) and (max-width: 950px) {
   html {
     font-size: 14px;
   }
